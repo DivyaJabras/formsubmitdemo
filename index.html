@@ -14,14 +14,14 @@
 
     <div class="container mt-5">
         <h1>Contact Me!</h1>
-        <form class="row g-3" action="https://formsubmit.co/d38983b64a3d621d9f71639af1d03fa7" method="POST">
+        <form class="row g-3" action="https://formsubmit.co/divyaj1204@gmail.com" method="POST">
           <!-- Honeypot -->
           <input type="text" name="_honey" style="display: none;">
 
           <!-- Disable Captcha -->
-          <input type="hidden" name="_captcha" value="false">
+          <!-- <input type="hidden" name="_captcha" value="false">
 
-          <input type="hidden" name="_next" value="https://divyajabras.github.io/formsubmitdemo/success.html" >
+          <input type="hidden" name="_next" value="https://divyajabras.github.io/formsubmitdemo/success.html" > -->
 
           <div class="col-md-6">
             <label for="firstName" class="form-label">First Name</label>
@@ -44,10 +44,29 @@
             <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" data-target="#submitModal">Submit</button>
           </div>
         </form>
     </div>
+
+    <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login to iCoder</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
